@@ -1,3 +1,5 @@
+package Remove_Duplicates_from_Sorted_Array_26;
+
 public class Solution {
     public int removeDuplicates(int[] nums) {
          if(nums.length<1){

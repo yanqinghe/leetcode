@@ -1,4 +1,5 @@
-import com.sun.org.apache.regexp.internal.recompile;
+package Implement_strStr_28;
+
 
 class Solution {
     public static void main(String[] args) {
