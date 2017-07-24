@@ -1,68 +1,67 @@
 package Search_in_Rotated_Sorted_Array_33;
 
 public class Solution {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] arr={3,1};
+        int[] arr = {1, 3};
 
-        System.out.println(solution.search(arr,1));
+        System.out.println(solution.search(arr, 0));
     }
+
     public int search(int[] nums, int target) {
-        if(nums.length<1||nums==null){
+        if (nums.length < 1 || nums == null) {
             return -1;
         }
-        if(nums.length== 1){
-            if(nums[0]==target){
+        if (nums.length == 1) {
+            if (nums[0] == target) {
                 return 0;
-            }else {
+            } else {
                 return -1;
             }
         }
-        return find(0,nums.length-1,nums,target);
-    }
-//    特殊的二分法递归
-    public int find(int i,int j,int[] nums,int target){
-        if(i==j){
-            if(nums[i]==target){
-                return i;
-            }else return -1;
-        }
-        int mid =(j+i)/2;
-        if(nums[mid]==target){
-            return mid;
-        }
-        if(nums[mid]>=nums[i]){
-//          说明mid和i在同一个区域
-            if(target<nums[mid]){
-                return binarySearch(i,mid,nums,target)+find(mid+1,j,nums,target)+-1;
-            }else{
-                return find(mid+1,j,nums,target);
-            }
-        }else{
-//            mid和j在同一个区域
-            if(target<nums[mid]){
-                return find(i,mid,nums,target);
-            }else{
-                return binarySearch(mid+1,j,nums,target);
-            }
-        }
+        return binarySearch(0, nums.length - 1, nums, target);
     }
 
-//    普通的二分法递归
-    public int binarySearch(int i,int j,int[] nums,int target){
-        if(i==j){
-            if(nums[i]==target){
-                return i;
-            }else return -1;
+    //    二分法递归
+    public int binarySearch(int i, int j, int[] nums, int target) {
+        if (i > j) {
+            return -1;
         }
-        int mid =(j+i)/2;
-        if(nums[mid]==target){
+        if (nums[i] == target) {
+            return i;
+        }
+        if (nums[j] == target) {
+            return j;
+        }
+        int mid = (j + i) / 2;
+        if (nums[mid] == target) {
             return mid;
         }
-        if(nums[mid]>target){
-            return  binarySearch(i,mid,nums,target);
-        }else {
-            return  binarySearch(mid+1,j,nums,target);
+//        第一种情况，也就是数组完全顺序排列
+        if (nums[i] < nums[j]) {
+            if (target < nums[i] || target > nums[j]) {
+                return -1;
+            }
+            if (target < nums[mid]) {
+                return binarySearch(i + 1, mid - 1, nums, target);
+            } else {
+                return binarySearch(mid + 1, j - 1, nums, target);
+            }
+
+        } else if (nums[mid] > nums[i]) {
+            if (target > nums[i] && target < nums[mid]) {
+                return binarySearch(i + 1, mid - 1, nums, target);
+            } else {
+
+                return binarySearch(mid + 1, j - 1, nums, target);
+            }
+        } else {
+            if (target > nums[mid] && target < nums[j]) {
+
+                return binarySearch(mid + 1, j - 1, nums, target);
+            } else {
+                return binarySearch(i + 1, mid - 1, nums, target);
+            }
         }
     }
 }
