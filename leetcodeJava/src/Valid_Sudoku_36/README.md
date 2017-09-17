@@ -4,6 +4,8 @@
 > Determine if a Sudoku is valid, according to: Sudoku Puzzles - The Rules.
 The Sudoku board could be partially filled, where empty cells are filled with the character '.'.
 
+![Img] (https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/250px-Sudoku-by-L2G-20050714.svg.png)
+
 >A partially filled sudoku which is valid.
 Note:
 A valid Sudoku board (partially filled) is not necessarily solvable. Only the filled cells need to be validated.
@@ -86,3 +88,5 @@ public boolean isValidSudoku(char[][] board) {
 }
 
 ```
+前端时间在忙实验室的事情，一直没时间去做新的题目，看看这次更新能坚持多久吧，加油。附上这道题目的GitHub链接。
+https://github.com/yanqinghe/leetcode/tree/master/leetcodeJava/src/Valid_Sudoku_36
