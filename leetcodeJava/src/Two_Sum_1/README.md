@@ -197,7 +197,7 @@ public int[] twoSum(int[] numbers, int target) {
 > 2. http://www.cnblogs.com/chenssy/p/3521565.html
 
 > 项目GitHub链接
-https://github.com/yanqinghe/leetcode/blob/master/leetcodeJava/src/Two_Sum_1/Solution.java
+https://github.com/yanqinghe/leetcode/blob/master/leetcodeJava/src/Two_Sum_1/Solution36.java
 
 PS：写在后面，现在开始补写文档记录刷leetcode的过程，也希望能把自己的想法记录下来与别人分享，同时也希望能够与更多的人交流。
 GitHub主页https://github.com/yanqinghe/leetcode

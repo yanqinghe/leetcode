@@ -29,7 +29,7 @@ CSDN上一篇博主对于这个问题的评价
 所以说针对这种题目，只需要合理的组织代码，用套路解决就可以了。下面直接列出相关代码。包括连个辅助函数。
 
 ``` java
-public class Solution {
+public class Solution36 {
     public void solveSudoku(char[][] board) {
         if(board == null || board.length != 9 || board[0].length !=9)
             return;
