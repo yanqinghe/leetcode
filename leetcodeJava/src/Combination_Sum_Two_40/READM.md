@@ -61,3 +61,7 @@ public class Solution40 {
     }
 }
 ```
+
+
+本题的Github链接
+https://github.com/yanqinghe/leetcode/tree/master/leetcodeJava/src/Combination_Sum_Two_40
