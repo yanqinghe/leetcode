@@ -1,18 +1,23 @@
+package First_Missing_Positive_41;
+
+import java.util.HashMap;
+import java.util.Map;
+
 class Solution41 {
-    Map<Integer,Integer> map = new HashMap();
-    public int firstMissingPositive(int[] nums) {
-        
-        for(int i =0;i<nums.length();i++){
-            map.put(num[i]);
-        }
-        int i=1;
-        while(true){
-            if(!map.containsKey(i)){
-                return i;
-            }
-            i++;
-        }
-    }
+//    Map<Integer,Integer> map = new HashMap();
+//    public int firstMissingPositive(int[] nums) {
+//
+//        for(int i =0;i<nums.length();i++){
+//            map.put(num[i]);
+//        }
+//        int i=1;
+//        while(true){
+//            if(!map.containsKey(i)){
+//                return i;
+//            }
+//            i++;
+//        }
+//    }
     public int firstMissingPositive(int[] nums) {
         if(nums.length<1){
             return 1;
