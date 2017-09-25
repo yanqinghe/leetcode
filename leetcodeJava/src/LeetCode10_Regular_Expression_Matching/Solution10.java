@@ -24,6 +24,7 @@ public class Solution10 {
     }
     //采用传统的递归方法
     private boolean subMatch(String s,String p,int i,int j){
+        //如果对于P字符已经匹配完，
         if(j==p.length()){
             return i==s.length();
         }
