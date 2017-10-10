@@ -1,6 +1,5 @@
 package LeetCode49_Group_Anagrams;
 
-import com.sun.org.apache.regexp.internal.RE;
 
 import java.util.*;
 
