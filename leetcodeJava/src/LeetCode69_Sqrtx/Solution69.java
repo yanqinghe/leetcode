@@ -17,8 +17,6 @@ public class Solution69 {
                 mid=46340;
 
             }s=mid*mid;
-
-
             if(s==x){
                 return mid;
             }else if(s<x){
