@@ -17,7 +17,7 @@ public class Solution76 {
             }else {
                 //如果不存在,添加
                 tMap.put(t.charAt(i),1);
-            }
+          #  }
         }
 
         int left = 0;//最小字符串对应t字符串的左边位置
