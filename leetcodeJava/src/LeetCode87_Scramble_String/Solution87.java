@@ -57,8 +57,3 @@ public class Solution87 {
     }
 }
 
-LeetCode学习笔记持续更新
-
-GitHub地址 https://github.com/yanqinghe/leetcode
-
-CSDN博客地址 http://blog.csdn.net/yanqinghe123/article/category/7176678

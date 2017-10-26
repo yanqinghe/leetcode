@@ -1,6 +1,8 @@
 package LeetCcode84_Largest_Rectangle_in_Histogram;
 
-public class Solution {
+import java.util.Stack;
+
+public class Solution84 {
     public int largestRectangleArea(int[] heights) {
      if(heights==null ||heights.length<1){
             return 0;
