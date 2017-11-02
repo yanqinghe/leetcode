@@ -1,4 +1,4 @@
-package LeetCode82_Remove_Dulicateds_from_Sorted_List_2;
+package LeetCode82_Remove_Duplicates_from_Sorted_List_2;
 /**
  * Definition for singly-linked list.
  * public class ListNode {
