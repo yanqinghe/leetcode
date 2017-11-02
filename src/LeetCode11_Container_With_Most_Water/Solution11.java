@@ -4,11 +4,12 @@ package LeetCode11_Container_With_Most_Water;
  * Created by yanqinghe on 2017/7/13.
  */
 public class Solution11 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Solution11 solution = new Solution11();
-        int[] arr = {1,2,3,4};
+        int[] arr = {1, 2, 3, 4};
         System.out.print(solution.maxArea(arr));
     }
+
     public int maxArea(int[] height) {
         int ans = 0;
         int l = 0;

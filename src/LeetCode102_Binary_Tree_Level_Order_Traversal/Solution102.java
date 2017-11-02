@@ -13,22 +13,23 @@ public class Solution102 {
      * TreeNode(int x) { val = x; }
      * }
      */
-    List<List<Integer>> result =  new ArrayList<>();
+    List<List<Integer>> result = new ArrayList<>();
 
     public List<List<Integer>> levelOrder(TreeNode root) {
-        help(root,1);
+        help(root, 1);
         return result;
     }
-    private void help(TreeNode treeNode,int level){
-        if(treeNode==null){
+
+    private void help(TreeNode treeNode, int level) {
+        if (treeNode == null) {
             return;
         }
-        if(result.size()<level){
+        if (result.size() < level) {
             result.add(new ArrayList<>());
         }
-            help(treeNode.left,level+1);
-        result.get(level-1).add(treeNode.val);
-            help(treeNode.right,level+1);
+        help(treeNode.left, level + 1);
+        result.get(level - 1).add(treeNode.val);
+        help(treeNode.right, level + 1);
     }
 
     public class TreeNode {

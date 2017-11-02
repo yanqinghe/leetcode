@@ -13,16 +13,17 @@ public class Solution110 {
      * }
      */
     public boolean isBalanced(TreeNode root) {
-        if(deepth(root,0)==-2) return false;
+        if (deepth(root, 0) == -2) return false;
         return true;
     }
-    private int deepth(TreeNode treeNode,int level){
-        if(treeNode!=null){
+
+    private int deepth(TreeNode treeNode, int level) {
+        if (treeNode != null) {
             level++;
-            int left = deepth(treeNode.left,level);
-            int right = deepth(treeNode.right,level);
-            if(Math.abs(left-right)<2)
-                return Math.max(left,right);
+            int left = deepth(treeNode.left, level);
+            int right = deepth(treeNode.right, level);
+            if (Math.abs(left - right) < 2)
+                return Math.max(left, right);
             return -2;
         }
         return level;

@@ -4,6 +4,7 @@ import java.util.*;
 
 public class Solution40 {
     Set<List<Integer>> result = new HashSet<>();
+
     //这里与上一道题不同的是使用Set来去除重复的解，
     //    Map<List<Integer>> result = new ArrayList<>();
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {

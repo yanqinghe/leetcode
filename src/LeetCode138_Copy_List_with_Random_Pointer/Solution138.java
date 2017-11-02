@@ -12,35 +12,35 @@ public class Solution138 {
      * };
      */
     public RandomListNode copyRandomList(RandomListNode head) {
-        if(head==null) return null;
-        HashMap<RandomListNode,RandomListNode> map  = new HashMap<>();
+        if (head == null) return null;
+        HashMap<RandomListNode, RandomListNode> map = new HashMap<>();
         Stack<RandomListNode> stack = new Stack<>();
         Set<RandomListNode> used = new HashSet<>();
         stack.add(head);
-        RandomListNode node =new RandomListNode(head.label);
+        RandomListNode node = new RandomListNode(head.label);
         RandomListNode res = node;
-        map.put(head,node);
+        map.put(head, node);
         used.add(head);
-        while (!stack.isEmpty()){
+        while (!stack.isEmpty()) {
             head = stack.pop();
             node = map.get(head);
-            if(head.next!=null){
-                if(!map.containsKey(head.next)){
-                    map.put(head.next,new RandomListNode(head.next.label));
+            if (head.next != null) {
+                if (!map.containsKey(head.next)) {
+                    map.put(head.next, new RandomListNode(head.next.label));
                 }
-                node.next=map.get(head.next);
-                if(!used.contains(head.next)){
+                node.next = map.get(head.next);
+                if (!used.contains(head.next)) {
                     stack.add(head.next);
                     used.add(head.next);
                 }
 
             }
-            if(head.random!=null){
-                if(!map.containsKey(head.random)) {
-                    map.put(head.random,new RandomListNode(head.random.label));
+            if (head.random != null) {
+                if (!map.containsKey(head.random)) {
+                    map.put(head.random, new RandomListNode(head.random.label));
                 }
-                node.random=map.get(head.random);
-                if(!used.contains(head.random)){
+                node.random = map.get(head.random);
+                if (!used.contains(head.random)) {
                     stack.add(head.random);
                     used.add(head.random);
                 }

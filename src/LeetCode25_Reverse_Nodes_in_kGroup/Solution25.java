@@ -17,7 +17,6 @@ public class Solution25 {
     }
 
 
-
     public ListNode reverseKGroup(ListNode head, int k) {
         ListNode listNode = new ListNode(0);
         ListNode temp = head;
@@ -29,15 +28,15 @@ public class Solution25 {
             }
             temp = temp.next;
         }
-        if(k>size){
+        if (k > size) {
             return head;
         }
         temp = head;
-        ListNode last=head;
+        ListNode last = head;
         ListNode preLast = last;
-        for (int i = 0; i <= size-k; i = i + k) {
-            if(i>0){
-                preLast =last;
+        for (int i = 0; i <= size - k; i = i + k) {
+            if (i > 0) {
+                preLast = last;
             }
             last = head;
             for (int j = 1; j < k; j++) {
@@ -53,8 +52,8 @@ public class Solution25 {
                     s--;
                 }
                 if (j > 1) {
-                    pre.next=help2.next;
-                    help2.next=head;
+                    pre.next = help2.next;
+                    help2.next = head;
                 } else {
                     head.next = help2.next;
                     help2.next = head;
@@ -62,8 +61,8 @@ public class Solution25 {
                 head = help2;
 
             }
-            if(i>0){
-               preLast.next=head;
+            if (i > 0) {
+                preLast.next = head;
             }
             head = last.next;
         }

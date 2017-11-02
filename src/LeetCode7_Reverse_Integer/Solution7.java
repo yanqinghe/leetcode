@@ -34,7 +34,7 @@ public class Solution7 {
             result = temp + result * 10;
             i--;
         }
-        return x>=0?result:-result;
+        return x >= 0 ? result : -result;
 
     }
 

@@ -10,18 +10,20 @@ public class Solution104 {
      * TreeNode(int x) { val = x; }
      * }
      */
-    private  int max;
+    private int max;
+
     public int maxDepth(TreeNode root) {
-        help(root,1);
+        help(root, 1);
         return max;
     }
-    private void help(TreeNode root,int level){
-        if(root==null){
+
+    private void help(TreeNode root, int level) {
+        if (root == null) {
             return;
         }
-        max=max<level?level:max;
-        help(root.left,level+1);
-        help(root.right,level+1);
+        max = max < level ? level : max;
+        help(root.left, level + 1);
+        help(root.right, level + 1);
     }
 
     public class TreeNode {

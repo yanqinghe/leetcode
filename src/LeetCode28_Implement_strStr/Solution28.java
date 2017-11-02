@@ -7,7 +7,7 @@ class Solution28 {
     }
 
     public int strStr(String haystack, String needle) {
-               if (needle.length() == 0) {
+        if (needle.length() == 0) {
             return 0;
         }
         if (needle.length() > haystack.length()) {
@@ -15,14 +15,14 @@ class Solution28 {
         }
         // return haystack.indexOf(needle);
         boolean r = false;
-        for (int i = 0; i <= haystack.length()-needle.length(); i++) {
+        for (int i = 0; i <= haystack.length() - needle.length(); i++) {
             if (haystack.charAt(i) == needle.charAt(0)) {
-                r =true;
+                r = true;
                 for (int j = 1; j < needle.length(); j++) {
                     if (haystack.charAt(i + j) != needle.charAt(j)) {
                         r = false;
                         break;
-                    } 
+                    }
                 }
                 if (r) {
                     return i;

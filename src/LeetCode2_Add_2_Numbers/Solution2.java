@@ -14,15 +14,15 @@ public class Solution2 {
         for (int i = 0; i < a.length; i++) {
             aa.next = new ListNode(a[i]);
 
-            aa=aa.next;
+            aa = aa.next;
 
         }
-        for(int i=0;i<b.length;i++){
+        for (int i = 0; i < b.length; i++) {
             bb.next = new ListNode(b[i]);
-            bb=bb.next;
+            bb = bb.next;
         }
         Solution2 solution = new Solution2();
-        solution.addTwoNumbers(a0.next,b0.next);
+        solution.addTwoNumbers(a0.next, b0.next);
     }
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -32,7 +32,7 @@ public class Solution2 {
         ListNode resultNext = result;
         ListNode kongNode = new ListNode(0);
         int op = 0;
-        while (currentl1!=kongNode || currentl2!=kongNode) {
+        while (currentl1 != kongNode || currentl2 != kongNode) {
             int opResult = currentl1.val + currentl2.val + op;
             if (opResult >= 10) {
                 result.next = new ListNode(opResult - 10);
@@ -45,8 +45,8 @@ public class Solution2 {
             currentl2 = currentl2.next == null ? kongNode : currentl2.next;
             result = result.next;
         }
-        if(op==1){
-            result.next=new ListNode(1);
+        if (op == 1) {
+            result.next = new ListNode(1);
         }
         return resultNext.next;
     }

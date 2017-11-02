@@ -12,26 +12,26 @@ public class Solution86 {
      * }
      */
     public ListNode partition(ListNode head, int x) {
-        if(head==null)
+        if (head == null)
             return head;
         ListNode myhead = new ListNode(0);
-        ListNode left= new ListNode(0);
+        ListNode left = new ListNode(0);
         myhead.next = left;
         ListNode right = new ListNode(0);
         ListNode midHead = new ListNode(0);
         midHead.next = right;
-        while(head!=null){
+        while (head != null) {
             ListNode node = head.next;
-            if(head.val<x){
+            if (head.val < x) {
                 left.next = head;
                 left = left.next;
                 left.next = null;
-            }else {
+            } else {
                 right.next = head;
                 right = right.next;
                 right.next = null;
             }
-            head= node;
+            head = node;
         }
         left.next = midHead.next.next;
         return myhead.next.next;

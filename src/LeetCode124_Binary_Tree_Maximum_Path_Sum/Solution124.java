@@ -17,18 +17,19 @@ public class Solution124 {
      */
     public int maxPathSum(TreeNode root) {
         int[] res = new int[1];
-        res[0]=Integer.MIN_VALUE;
-        help(root,res);
+        res[0] = Integer.MIN_VALUE;
+        help(root, res);
         return res[0];
     }
-    private int help(TreeNode root,int[] res){
-        if(root==null)return 0;
-        int left = Math.max(help(root.left,res),0);
-        int right = Math.max(help(root.right,res),0);
 
-        int v =root.val+left+right;
-        if(v>res[0]) res[0]=v;
-        return root.val+Math.max(left,right);
+    private int help(TreeNode root, int[] res) {
+        if (root == null) return 0;
+        int left = Math.max(help(root.left, res), 0);
+        int right = Math.max(help(root.right, res), 0);
+
+        int v = root.val + left + right;
+        if (v > res[0]) res[0] = v;
+        return root.val + Math.max(left, right);
     }
 
     public class TreeNode {

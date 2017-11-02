@@ -6,23 +6,25 @@ import java.util.List;
 
 public class Solution107 {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
-        help(root,1);
+        help(root, 1);
         Collections.reverse(result);
         return result;
     }
-    List<List<Integer>> result =  new ArrayList<>();
 
-    private void help(TreeNode treeNode,int level){
-        if(treeNode==null){
+    List<List<Integer>> result = new ArrayList<>();
+
+    private void help(TreeNode treeNode, int level) {
+        if (treeNode == null) {
             return;
         }
-        if(result.size()<level){
+        if (result.size() < level) {
             result.add(new ArrayList<>());
         }
-        help(treeNode.left,level+1);
-        result.get(level-1).add(treeNode.val);
-        help(treeNode.right,level+1);
+        help(treeNode.left, level + 1);
+        result.get(level - 1).add(treeNode.val);
+        help(treeNode.right, level + 1);
     }
+
     class TreeNode {
         int val;
         TreeNode left;

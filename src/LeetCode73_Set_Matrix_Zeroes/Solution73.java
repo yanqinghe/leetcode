@@ -12,23 +12,23 @@ public class Solution73 {
     }
 
     public void setZeroes(int[][] matrix) {
-        if(matrix==null||matrix.length<1){
+        if (matrix == null || matrix.length < 1) {
             return;
         }
-        boolean firstRowZero  = false;//状态
-        boolean firstColZero  = false;//状态
+        boolean firstRowZero = false;//状态
+        boolean firstColZero = false;//状态
         int m = matrix.length;
         int n = matrix[0].length;
-        for (int temp: matrix[0]
-             ) {
-            if(temp==0){
-                firstRowZero=true;
+        for (int temp : matrix[0]
+                ) {
+            if (temp == 0) {
+                firstRowZero = true;
             }
-            }
-        for (int[] temp: matrix
-             ) {
-            if(temp[0]==0){
-                firstColZero=true;
+        }
+        for (int[] temp : matrix
+                ) {
+            if (temp[0] == 0) {
+                firstColZero = true;
             }
         }
         for (int i = 1; i < m; i++) {
@@ -41,22 +41,22 @@ public class Solution73 {
         }
         for (int i = m - 1; i > 0; i--) {
             for (int j = n - 1; j > 0; j--) {
-                if (matrix[0][j] == 0||matrix[i][0] == 0 ){
+                if (matrix[0][j] == 0 || matrix[i][0] == 0) {
                     matrix[i][j] = 0;
                 }
             }
         }
-        if(matrix[0][0]==0){
-            firstColZero=firstRowZero=true;
+        if (matrix[0][0] == 0) {
+            firstColZero = firstRowZero = true;
         }
-        if(firstColZero){
-            for (int i = 0; i <m ; i++) {
-                matrix[i][0]=0;
+        if (firstColZero) {
+            for (int i = 0; i < m; i++) {
+                matrix[i][0] = 0;
             }
         }
-        if(firstRowZero){
+        if (firstRowZero) {
             for (int i = 0; i < n; i++) {
-                matrix[0][i]=0;
+                matrix[0][i] = 0;
             }
         }
     }

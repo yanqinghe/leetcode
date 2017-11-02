@@ -5,8 +5,9 @@ public class Solution50 {
 
 
     }
+
     public double myPow(double x, int n) {
-        long m = n > 0 ? n : -(long)n;
+        long m = n > 0 ? n : -(long) n;
         double ans = 1.0;
         while (m != 0) {
             if ((m & 1) == 1)
