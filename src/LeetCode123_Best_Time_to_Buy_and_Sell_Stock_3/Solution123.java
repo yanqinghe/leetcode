@@ -1,6 +1,6 @@
 package LeetCode123_Best_Time_to_Buy_and_Sell_Stock_3;
 
-public class Solution123 {
+public class  Solution123 {
     public int maxProfit(int[] prices) {
         if (prices == null) return 0;
         int[] dpG = new int[3];
