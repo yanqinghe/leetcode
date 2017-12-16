@@ -1,4 +1,3 @@
-package LeetCode168_Excel_Sheet_Column_Title;
 
 public class Solution168 {
     public String convertToTitle(int n) {

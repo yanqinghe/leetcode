@@ -1,4 +1,3 @@
-package LeetCode85_Maximal_Rectangle;
 
 import java.util.Stack;
 

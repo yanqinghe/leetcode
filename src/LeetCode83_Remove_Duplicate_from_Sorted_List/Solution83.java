@@ -1,4 +1,3 @@
-package LeetCode83_Remove_Duplicate_from_Sorted_List;
 
 class Solution83 {
     public ListNode deleteDuplicates(ListNode head) {

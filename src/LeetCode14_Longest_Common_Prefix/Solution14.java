@@ -1,4 +1,3 @@
-package LeetCode14_Longest_Common_Prefix;
 
 /**
  * Created by yanqinghe on 2017/7/12.

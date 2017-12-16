@@ -1,4 +1,3 @@
-package LeetCode166_Fraction_to_Recurring_Decimal;
 
 import java.util.HashMap;
 import java.util.HashSet;

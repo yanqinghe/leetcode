@@ -1,14 +1,12 @@
-package LeetCode_Contest56;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class Solution4 {
+public class Solution719 {
     public static void main(String[] args) {
-        Solution4 solution4 = new Solution4();
+        Solution719 solution719 = new Solution719();
         int[] nums = {1, 3, 1};
 
-        int res = solution4.smallestDistancePair(nums, 1);
+        int res = solution719.smallestDistancePair(nums, 1);
         System.out.println(res);
     }
 

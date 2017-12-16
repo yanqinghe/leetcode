@@ -1,4 +1,3 @@
-package LeetCode44_Wildcard_Matching;
 
 public class Solution44 {
     public static void main(String[] args) {

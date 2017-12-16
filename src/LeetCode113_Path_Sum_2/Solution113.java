@@ -1,4 +1,3 @@
-package LeetCode113_Path_Sum_2;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,3 @@
-package LeetCode120_Triangle;
 
 import java.util.List;
 

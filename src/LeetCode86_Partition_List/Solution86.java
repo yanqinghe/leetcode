@@ -1,6 +1,3 @@
-package LeetCode86_Partition_List;
-
-import java.util.List;
 
 public class Solution86 {
     /**

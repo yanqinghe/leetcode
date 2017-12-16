@@ -1,4 +1,3 @@
-package LeetCode148_Sort_List;
 
 public class Solution148 {
     /**

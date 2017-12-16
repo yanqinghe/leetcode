@@ -1,4 +1,3 @@
-package LeetCode38_Count_and_Say;
 
 public class Solution38 {
     public static void main(String[] args) {

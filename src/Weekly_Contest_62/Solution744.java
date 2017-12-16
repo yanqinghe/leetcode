@@ -1,4 +1,3 @@
-package Weekly_Contest_62;
 
 public class Solution744 {
     public char nextGreatestLetter(char[] letters, char target) {

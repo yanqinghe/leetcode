@@ -1,4 +1,3 @@
-package LeetCode6_ZigZag_conversion;
 
 /**
  * Created by yanqinghe on 2017/7/3.

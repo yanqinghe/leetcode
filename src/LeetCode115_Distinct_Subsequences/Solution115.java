@@ -1,4 +1,3 @@
-package LeetCode115_Distinct_Subsequences;
 
 public class Solution115 {
     public int numDistinct(String s, String t) {

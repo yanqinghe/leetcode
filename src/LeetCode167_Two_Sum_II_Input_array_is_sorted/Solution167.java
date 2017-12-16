@@ -1,5 +1,4 @@
 package LeetCode167_Two_Sum_II_Input_array_is_sorted;
-
 public class Solution167 {
     public int[] twoSum(int[] numbers, int target) {
         int left = 0,right = numbers.length-1;

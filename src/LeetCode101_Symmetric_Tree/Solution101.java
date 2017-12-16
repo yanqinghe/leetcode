@@ -1,4 +1,3 @@
-package LeetCode101_Symmetric_Tree;
 
 public class Solution101 {
     /**

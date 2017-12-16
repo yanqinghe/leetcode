@@ -1,4 +1,3 @@
-package LeetCode129_Sum_Root_to_Leaf_Numbers;
 
 public class Solution129 {
     /**

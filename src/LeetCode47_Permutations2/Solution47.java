@@ -1,4 +1,3 @@
-package LeetCode47_Permutations2;
 
 import java.util.*;
 

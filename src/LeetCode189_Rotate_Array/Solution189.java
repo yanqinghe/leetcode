@@ -1,8 +1,3 @@
-package LeetCode189_Rotate_Array;
-
-import java.lang.reflect.Array;
-import java.util.Arrays;
-
 public class Solution189 {
     public void rotate(int[] nums, int k) {
         if(nums==null||nums.length<1||k==0||k>=nums.length) return;

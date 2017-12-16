@@ -1,4 +1,3 @@
-package LeetCode33_Search_in_Rotated_Sorted_Array;
 
 public class Solution33 {
     public static void main(String[] args) {

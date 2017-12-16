@@ -1,5 +1,3 @@
-package LeetCode23_Merge_k_Sorted_Lists;
-
 /**
  * Created by hehe on 2017/7/17.
  */
@@ -43,5 +41,13 @@ public class Solution23 {
             result.next = l1;
         }
         return head.next;
+    }
+    class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode(int x) {
+            val = x;
+        }
     }
 }

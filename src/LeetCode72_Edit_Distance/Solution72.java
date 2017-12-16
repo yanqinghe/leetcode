@@ -1,4 +1,3 @@
-package LeetCode72_Edit_Distance;
 
 public class Solution72 {
     public int minDistance(String word1, String word2) {

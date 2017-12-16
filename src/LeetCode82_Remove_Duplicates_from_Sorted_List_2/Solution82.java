@@ -1,4 +1,3 @@
-package LeetCode82_Remove_Duplicates_from_Sorted_List_2;
 
 /**
  * Definition for singly-linked list.
@@ -8,7 +7,7 @@ package LeetCode82_Remove_Duplicates_from_Sorted_List_2;
  * ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+class Solution82 {
 
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null) {

@@ -1,10 +1,5 @@
-package LeetCode149_Max_Points_on_a_Line;
-
-import java.math.BigDecimal;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
 
 public class Solution149 {
     /**

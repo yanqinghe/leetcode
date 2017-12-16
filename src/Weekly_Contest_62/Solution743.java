@@ -1,4 +1,3 @@
-package Weekly_Contest_62;
 
 import java.util.*;
 

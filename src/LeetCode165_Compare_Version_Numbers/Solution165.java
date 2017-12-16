@@ -1,4 +1,3 @@
-package LeetCode165_Compare_Version_Numbers;
 
 import java.util.Arrays;
 

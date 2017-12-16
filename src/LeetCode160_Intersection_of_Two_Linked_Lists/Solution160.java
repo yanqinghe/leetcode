@@ -1,4 +1,3 @@
-package LeetCode160_Intersection_of_Two_Linked_Lists;
 
 public class Solution160 {
     /**

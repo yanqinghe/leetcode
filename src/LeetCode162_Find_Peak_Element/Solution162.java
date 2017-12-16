@@ -1,4 +1,3 @@
-package LeetCode162_Find_Peak_Element;
 
 public class Solution162 {
     public int findPeakElement(int[] nums) {

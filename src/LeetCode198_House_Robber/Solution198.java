@@ -1,4 +1,3 @@
-package LeetCode198_House_Robber;
 
 import java.util.Map;
 

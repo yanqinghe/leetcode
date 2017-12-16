@@ -1,4 +1,3 @@
-package LeetCode63_Unique_Paths_2;
 
 public class Solution63 {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {

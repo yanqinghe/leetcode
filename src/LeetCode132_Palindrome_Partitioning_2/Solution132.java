@@ -1,4 +1,3 @@
-package LeetCode132_Palindrome_Partitioning_2;
 
 import java.util.ArrayList;
 import java.util.List;

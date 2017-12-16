@@ -1,4 +1,3 @@
-package LeetCode213_House_Robber_II;
 
 public class Solution213 {
     public static void main(String[] args) {

@@ -1,4 +1,3 @@
-package LeetCode1_Two_Sum;
 
 /**
  * Created by yanqinghe on 2017/7/2.

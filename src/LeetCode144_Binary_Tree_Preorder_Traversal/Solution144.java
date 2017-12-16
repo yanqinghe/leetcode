@@ -1,4 +1,3 @@
-package LeetCode144_Binary_Tree_Preorder_Traversal;
 
 import java.util.ArrayList;
 import java.util.List;

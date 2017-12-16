@@ -1,5 +1,3 @@
-package LeetCode75_Sort_Colors;
-
 public class Soution75 {
     public void sortColors(int[] nums) {
         int rn = 0, bn = 0;//初始化红蓝的计数

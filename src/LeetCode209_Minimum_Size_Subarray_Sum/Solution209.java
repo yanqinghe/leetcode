@@ -1,4 +1,3 @@
-package LeetCode209_Minimum_Size_Subarray_Sum;
 
 public class Solution209 {
     public int minSubArrayLen(int s, int[] nums) {

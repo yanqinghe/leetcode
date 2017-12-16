@@ -1,4 +1,3 @@
-package LeetCode97_Interleaving_String;
 
 public class Solution97 {
     public boolean isInterleave(String s1, String s2, String s3) {

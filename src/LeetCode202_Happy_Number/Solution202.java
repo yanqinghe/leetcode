@@ -1,4 +1,3 @@
-package LeetCode202_Happy_Number;
 
 import java.util.HashMap;
 import java.util.HashSet;

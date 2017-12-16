@@ -1,11 +1,10 @@
-package LeetCode3_Longest_Substring_Without_Repeating_Characters;
 
 /**
  * Created by yanqinghe on 2017/7/2.
  */
 public class Solution3 {
     public static void main(String args[]) {
-        Solution3 solution = new Solution3();
+        Solution722 solution = new Solution722();
         System.out.println(solution.lengthOfLongestSubstring("bbbbb"));
     }
 

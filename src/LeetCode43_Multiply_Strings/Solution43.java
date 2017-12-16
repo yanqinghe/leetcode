@@ -1,4 +1,3 @@
-package LeetCode43_Multiply_Strings;
 
 public class Solution43 {
     public static void main(String[] args) {

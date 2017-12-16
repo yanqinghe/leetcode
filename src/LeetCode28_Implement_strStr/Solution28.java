@@ -1,4 +1,3 @@
-package LeetCode28_Implement_strStr;
 
 
 class Solution28 {

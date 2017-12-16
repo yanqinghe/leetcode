@@ -1,4 +1,3 @@
-package LeetCode171_Excel_Sheet_Column_Number;
 
 public class Solution171 {
     public int titleToNumber(String s) {

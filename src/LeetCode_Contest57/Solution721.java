@@ -1,13 +1,9 @@
-package LeetCode_Contest57;
-
-import org.w3c.dom.ls.LSException;
-
 import java.util.*;
 
-public class Solution2 {
+public class Solution721 {
 
     public static void main(String[] args) {
-        Solution2 solution2 = new Solution2();
+        Solution721 solution721 = new Solution721();
         List<List<String>> res = new ArrayList<>();
         res.add(new ArrayList<String>(){{
             add("Hanzo");
@@ -50,7 +46,7 @@ public class Solution2 {
             add("Hanzo5@m.co");
             add("Hanzo6@m.co");
         }});
-        solution2.accountsMerge(res);
+        solution721.accountsMerge(res);
     }
     class Person{
         User User;

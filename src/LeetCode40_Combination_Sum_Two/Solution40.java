@@ -1,4 +1,3 @@
-package LeetCode40_Combination_Sum_Two;
 
 import java.util.*;
 

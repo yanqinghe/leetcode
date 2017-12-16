@@ -1,4 +1,3 @@
-package LeetCode92_Reverse_Linked_List_2;
 
 import java.util.List;
 

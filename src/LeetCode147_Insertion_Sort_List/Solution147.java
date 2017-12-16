@@ -1,4 +1,3 @@
-package LeetCode147_Insertion_Sort_List;
 
 import java.util.List;
 

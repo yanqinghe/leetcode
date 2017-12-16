@@ -1,4 +1,3 @@
-package LeetCode29_Divide_Two_Integers;
 
 class Solution29 {
     public static void main(String[] args) {

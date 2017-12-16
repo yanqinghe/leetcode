@@ -1,4 +1,3 @@
-package LeetCode50_Pow;
 
 public class Solution50 {
     public static void main(String[] args) {

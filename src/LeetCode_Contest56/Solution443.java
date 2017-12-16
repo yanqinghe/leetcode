@@ -1,12 +1,9 @@
-package LeetCode_Contest56;
-
-
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution2 {
+public class Solution443 {
     public static void main(String[] args) {
-        Solution2 solution2 = new Solution2();
+        Solution443 solution2 = new Solution443();
         char[] chars = {'a', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'c', 'c', 'c'};
         int i = solution2.compress(chars);
         return;

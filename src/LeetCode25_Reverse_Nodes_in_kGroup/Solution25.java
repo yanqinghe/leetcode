@@ -4,19 +4,6 @@ package LeetCode25_Reverse_Nodes_in_kGroup;
  * Created by hehe on 2017/7/17.
  */
 public class Solution25 {
-    public static void main(String[] args) {
-        Solution25 solution = new Solution25();
-        int[] arr = {1, 2};
-        ListNode listNode = new ListNode(0);
-        ListNode head = listNode;
-        for (int a : arr) {
-            listNode.next = new ListNode(a);
-            listNode = listNode.next;
-        }
-        System.out.print(solution.reverseKGroup(head.next, 2));
-    }
-
-
     public ListNode reverseKGroup(ListNode head, int k) {
         ListNode listNode = new ListNode(0);
         ListNode temp = head;
@@ -102,4 +89,14 @@ public class Solution25 {
 //        head = help;
 //        return head;
 //    }
+
+    class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode(int x) {
+            val = x;
+        }
+    }
+
 }

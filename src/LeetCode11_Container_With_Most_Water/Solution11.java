@@ -1,4 +1,3 @@
-package LeetCode11_Container_With_Most_Water;
 
 /**
  * Created by yanqinghe on 2017/7/13.

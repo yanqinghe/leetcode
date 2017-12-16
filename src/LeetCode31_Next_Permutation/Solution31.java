@@ -1,4 +1,3 @@
-package LeetCode31_Next_Permutation;
 
 import java.util.Arrays;
 

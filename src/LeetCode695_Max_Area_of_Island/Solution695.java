@@ -1,4 +1,3 @@
-package LeetCode695_Max_Area_of_Island;
 
 public class Solution695 {
     public static void main(String[] args) {

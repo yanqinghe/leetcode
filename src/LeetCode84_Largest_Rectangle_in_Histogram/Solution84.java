@@ -1,5 +1,3 @@
-package LeetCode84_Largest_Rectangle_in_Histogram;
-
 import java.util.Stack;
 
 public class Solution84 {

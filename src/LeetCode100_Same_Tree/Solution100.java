@@ -1,4 +1,3 @@
-package LeetCode100_Same_Tree;
 
 public class Solution100 {
     /**

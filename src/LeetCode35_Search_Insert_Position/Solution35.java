@@ -1,4 +1,3 @@
-package LeetCode35_Search_Insert_Position;
 
 public class Solution35 {
     public static void main(String[] args) {

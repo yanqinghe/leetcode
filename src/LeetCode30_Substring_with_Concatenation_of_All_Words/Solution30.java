@@ -1,4 +1,3 @@
-package LeetCode30_Substring_with_Concatenation_of_All_Words;
 
 import java.util.ArrayList;
 import java.util.HashMap;

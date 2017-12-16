@@ -1,4 +1,3 @@
-package LeetCode26_Remove_Duplicates_from_Sorted_Array;
 
 public class Solution26 {
     public int removeDuplicates(int[] nums) {

@@ -1,4 +1,3 @@
-package LeetCode80_Remove_Duplicates_from_Sorted_Array_2;
 
 public class Solution80 {
     public int removeDuplicates(int[] nums) {

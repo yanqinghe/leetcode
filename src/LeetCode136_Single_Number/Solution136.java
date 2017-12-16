@@ -1,4 +1,3 @@
-package LeetCode136_Single_Number;
 
 import java.lang.reflect.Array;
 

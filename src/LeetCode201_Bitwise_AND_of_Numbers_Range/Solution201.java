@@ -1,4 +1,3 @@
-package LeetCode201_Bitwise_AND_of_Numbers_Range;
 
 /**
  * Created with Hehel
@@ -30,7 +29,7 @@ package LeetCode201_Bitwise_AND_of_Numbers_Range;
  * Date: 2017-12-11
  * Time: 14:24
  */
-public class Solution201 {
+class Solution201 {
     public static void main(String[] args) {
         Solution201 solution201 = new Solution201();
         solution201.rangeBitwiseAnd2(6,7);

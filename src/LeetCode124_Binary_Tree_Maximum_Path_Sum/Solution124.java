@@ -1,9 +1,3 @@
-package LeetCode124_Binary_Tree_Maximum_Path_Sum;
-
-import org.omg.CORBA.MARSHAL;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class Solution124 {
     /**

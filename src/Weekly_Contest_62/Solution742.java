@@ -1,4 +1,3 @@
-package Weekly_Contest_62;
 
 import com.sun.org.apache.regexp.internal.RE;
 

@@ -1,15 +1,13 @@
-package LeetCode_Contest57;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Solution1 {
+public class Solution720 {
     public static void main(String[] args) {
-        Solution1 solution1 = new Solution1();
+        Solution720 solution720 = new Solution720();
         String [] s = {"k","lg","it","oidd","oid","oiddm","kfk","y","mw","kf","l","o","mwaqz","oi","ych","m","mwa"};
-        solution1.longestWord(s);
+        solution720.longestWord(s);
     }
     public String longestWord(String[] words) {
         if(words==null||words.length<1) return "";

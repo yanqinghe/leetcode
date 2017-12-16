@@ -1,6 +1,3 @@
-package LeetCode110_Balanced_Binary_Tree;
-
-import java.util.Map;
 
 public class Solution110 {
     /**

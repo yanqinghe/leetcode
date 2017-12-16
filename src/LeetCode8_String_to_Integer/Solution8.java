@@ -1,4 +1,3 @@
-package LeetCode8_String_to_Integer;
 
 /**
  * Created by yanqinghe on 2017/7/4.

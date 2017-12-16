@@ -1,4 +1,3 @@
-package LeetCode137_Single_Number_2;
 
 public class Solution137 {
     public int singleNumber(int[] nums) {

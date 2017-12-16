@@ -1,5 +1,3 @@
-package LeetCode200_Number_of_Islands;
-
 public class Solution200 {
     int res =0;
     public int numIslands(char[][] grid) {

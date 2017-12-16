@@ -1,14 +1,12 @@
-package Weekly_Contest_59;
 
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
-public class Solution3 {
+public class Solution730 {
     public static void main(String[] args) {
-        Solution3 solution3 = new Solution3();
-        solution3.countPalindromicSubsequences2("bccb");
+        Solution730 solution730 = new Solution730();
+        solution730.countPalindromicSubsequences2("bccb");
     }
     Map<String,Boolean>  dp = new HashMap<>();
     public int countPalindromicSubsequences(String S) {

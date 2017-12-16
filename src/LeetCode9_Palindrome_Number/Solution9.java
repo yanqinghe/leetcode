@@ -1,4 +1,3 @@
-package LeetCode9_Palindrome_Number;
 
 /**
  * Created by yanqinghe on 2017/7/5.

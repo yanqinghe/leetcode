@@ -1,6 +1,5 @@
-package Weekly_Contest_61;
 
-public class Solution2 {
+public class Solution738 {
     int max = 0;
     public int monotoneIncreasingDigits(int N) {
         String nstr = String.valueOf(N);

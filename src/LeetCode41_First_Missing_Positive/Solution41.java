@@ -1,4 +1,3 @@
-package LeetCode41_First_Missing_Positive;
 
 class Solution41 {
     //    Map<Integer,Integer> map = new HashMap();

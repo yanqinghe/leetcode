@@ -1,30 +1,7 @@
-package LeetCode2_Add_2_Numbers;
-
 /**
  * Created by yanqinghe on 2017/7/2.
  */
 public class Solution2 {
-    public static void main(String[] args) {
-        int[] a = new int[]{1, 2};
-        int[] b = new int[]{9};
-        ListNode a0 = new ListNode(0);
-        ListNode aa = a0;
-        ListNode b0 = new ListNode(0);
-        ListNode bb = b0;
-        for (int i = 0; i < a.length; i++) {
-            aa.next = new ListNode(a[i]);
-
-            aa = aa.next;
-
-        }
-        for (int i = 0; i < b.length; i++) {
-            bb.next = new ListNode(b[i]);
-            bb = bb.next;
-        }
-        Solution2 solution = new Solution2();
-        solution.addTwoNumbers(a0.next, b0.next);
-    }
-
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode currentl1 = l1;
         ListNode currentl2 = l2;
@@ -50,6 +27,16 @@ public class Solution2 {
         }
         return resultNext.next;
     }
+
+    class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode(int x) {
+            val = x;
+        }
+    }
+
 
 }
 

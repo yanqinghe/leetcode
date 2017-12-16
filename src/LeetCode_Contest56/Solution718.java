@@ -1,11 +1,9 @@
-package LeetCode_Contest56;
-
-public class Solution3 {
+public class Solution718 {
     public static void main(String[] args) {
         int[] A = {0, 1, 1, 1, 1};
         int[] B = {1, 0, 1, 0, 1};
-        Solution3 solution3 = new Solution3();
-        int res = solution3.findLength(B, A);
+         Solution718 solution718  = new Solution718();
+        int res = solution718.findLength(B, A);
         System.out.println(res);
     }
 

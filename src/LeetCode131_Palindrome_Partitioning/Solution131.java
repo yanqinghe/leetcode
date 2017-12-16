@@ -1,4 +1,3 @@
-package LeetCode131_Palindrome_Partitioning;
 
 import org.omg.PortableServer.LIFESPAN_POLICY_ID;
 

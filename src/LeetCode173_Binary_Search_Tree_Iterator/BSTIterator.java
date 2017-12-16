@@ -1,6 +1,4 @@
-package LeetCode173_Binary_Search_Tree_Iterator;
 
-import LeetCode2_Add_2_Numbers.ListNode;
 
 import java.util.Stack;
 

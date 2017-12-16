@@ -1,4 +1,3 @@
-package LeetCode206_Reverse_Linked_List;
 
 import java.util.Stack;
 

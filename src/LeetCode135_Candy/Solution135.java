@@ -1,4 +1,3 @@
-package LeetCode135_Candy;
 
 public class Solution135 {
     public static void main(String[] args) {

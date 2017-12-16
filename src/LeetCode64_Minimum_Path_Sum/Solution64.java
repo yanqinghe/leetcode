@@ -1,4 +1,3 @@
-package LeetCode64_Minimum_Path_Sum;
 
 public class Solution64 {
     public static void main(String[] args) {

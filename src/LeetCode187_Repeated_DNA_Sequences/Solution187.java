@@ -1,4 +1,3 @@
-package LeetCode187_Repeated_DNA_Sequences;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,4 +1,3 @@
-package LeetCode16_Three_Sum_Closest;
 
 import java.util.Arrays;
 

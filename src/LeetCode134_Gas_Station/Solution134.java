@@ -1,4 +1,3 @@
-package LeetCode134_Gas_Station;
 
 public class Solution134 {
     public int canCompleteCircuit(int[] gas, int[] cost) {

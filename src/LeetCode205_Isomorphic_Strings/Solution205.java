@@ -1,4 +1,3 @@
-package LeetCode205_Isomorphic_Strings;
 
 import java.util.Calendar;
 import java.util.HashMap;

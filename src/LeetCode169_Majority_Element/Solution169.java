@@ -1,4 +1,3 @@
-package LeetCode169_Majority_Element;
 
 
 

@@ -1,4 +1,3 @@
-package LeetCode36_Valid_Sudoku;
 
 class Solution36 {
     public static void main(String[] args) {

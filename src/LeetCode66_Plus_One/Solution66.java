@@ -1,4 +1,3 @@
-package LeetCode66_Plus_One;
 
 public class Solution66 {
     public int[] plusOne(int[] digits) {

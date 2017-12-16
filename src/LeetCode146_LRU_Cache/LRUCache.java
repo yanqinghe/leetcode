@@ -1,4 +1,3 @@
-package LeetCode146_LRU_Cache;
 
 import java.util.HashMap;
 import java.util.List;

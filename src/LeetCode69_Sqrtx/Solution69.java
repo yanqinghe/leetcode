@@ -1,4 +1,3 @@
-package LeetCode69_Sqrtx;
 
 public class Solution69 {
     public static void main(String[] args) {

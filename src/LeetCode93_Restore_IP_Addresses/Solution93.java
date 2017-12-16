@@ -1,4 +1,3 @@
-package LeetCode93_Restore_IP_Addresses;
 
 import javax.print.DocFlavor;
 import java.util.ArrayList;

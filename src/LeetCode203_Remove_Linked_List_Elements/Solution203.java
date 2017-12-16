@@ -1,4 +1,3 @@
-package LeetCode203_Remove_Linked_List_Elements;
 
 /**
  * Created with Hehel

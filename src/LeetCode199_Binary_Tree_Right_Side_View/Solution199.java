@@ -1,6 +1,4 @@
-package LeetCode199_Binary_Tree_Right_Side_View;
 
-import LeetCode2_Add_2_Numbers.ListNode;
 
 import java.util.*;
 

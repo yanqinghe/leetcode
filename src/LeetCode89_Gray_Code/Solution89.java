@@ -1,4 +1,3 @@
-package LeetCode89_Gray_Code;
 
 import java.util.ArrayList;
 import java.util.List;

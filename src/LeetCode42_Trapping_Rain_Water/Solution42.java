@@ -1,4 +1,3 @@
-package LeetCode42_Trapping_Rain_Water;
 
 import java.util.Stack;
 

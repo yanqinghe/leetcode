@@ -1,4 +1,3 @@
-package LeetCode122_Best_Time_to_Buy_and_Sell_Stock_2;
 
 public class Solution122 {
     public int maxProfit(int[] prices) {

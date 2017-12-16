@@ -1,4 +1,3 @@
-package LeetCode77_Combinations;
 
 import java.util.LinkedList;
 import java.util.List;

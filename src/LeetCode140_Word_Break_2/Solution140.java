@@ -1,4 +1,3 @@
-package LeetCode140_Word_Break_2;
 
 import java.util.ArrayList;
 import java.util.HashSet;

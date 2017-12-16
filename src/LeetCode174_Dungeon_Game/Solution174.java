@@ -1,4 +1,3 @@
-package LeetCode174_Dungeon_Game;
 
 public class Solution174 {
     public int calculateMinimumHP(int[][] dungeon) {

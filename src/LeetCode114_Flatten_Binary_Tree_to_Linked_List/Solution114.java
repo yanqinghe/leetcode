@@ -1,6 +1,3 @@
-package LeetCode114_Flatten_Binary_Tree_to_Linked_List;
-
-import java.util.List;
 
 public class Solution114 {
     public void flatten(TreeNode root) {

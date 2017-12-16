@@ -1,6 +1,3 @@
-package LeetCode109_Convert_Sorted_List_to_Binary_Search_Tree;
-
-import java.util.List;
 
 public class Solution109 {
     /**

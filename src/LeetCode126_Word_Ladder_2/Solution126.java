@@ -1,4 +1,3 @@
-package LeetCode126_Word_Ladder_2;
 
 import org.omg.CORBA.INTERNAL;
 

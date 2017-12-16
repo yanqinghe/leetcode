@@ -1,4 +1,3 @@
-package LeetCode5_Longest_Palindromic_Substring;
 
 /**
  * Created by yanqinghe on 2017/7/2.

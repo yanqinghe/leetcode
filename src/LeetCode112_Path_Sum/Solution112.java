@@ -1,4 +1,3 @@
-package LeetCode112_Path_Sum;
 
 public class Solution112 {
     /**

@@ -1,12 +1,11 @@
-package Weekly_Contest_61;
 
 import java.util.Stack;
 
-public class Solution1 {
+public class Solution739 {
     public static void main(String[] args) {
-        Solution1 solution1 = new Solution1();
+        Solution739 solution739 = new Solution739();
         int [] a = {73,74,75,71,69,72,76,73};
-        solution1.dailyTemperatures(a);
+        solution739.dailyTemperatures(a);
     }
     public int[] dailyTemperatures(int[] temperatures) {
         int[] res = new int[temperatures.length];

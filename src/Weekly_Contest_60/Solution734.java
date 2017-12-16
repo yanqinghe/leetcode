@@ -1,18 +1,14 @@
-package Weekly_Contest_60;
 
-import LeetCode2_Add_2_Numbers.ListNode;
-
-import java.lang.reflect.Array;
 import java.util.*;
 
-public class Solution2 {
+public class Solution734 {
     public static void main(String[] args) {
-        Solution2 solution2 = new Solution2();
+        Solution734 solution734 = new Solution734();
         String[] w1={"one","excellent","meal"};
         String[] w2= {"one","good","dinner"};
 String[][] pars = {{"great","good"},{"extraordinary","good"},{"well","good"},{"wonderful","good"},{"excellent","good"},{"fine","good"},{"nice","good"},{"any","one"},{"some","one"},{"unique","one"},{"the","one"},{"an","one"},{"single","one"},{"a","one"},{"truck","car"},{"wagon","car"},{"automobile","car"},{"auto","car"},{"vehicle","car"},{"entertain","have"},{"drink","have"},{"eat","have"},{"take","have"},{"fruits","meal"},{"brunch","meal"},{"breakfast","meal"},{"food","meal"},{"dinner","meal"},{"super","meal"},{"lunch","meal"},{"possess","own"},{"keep","own"},{"have","own"},{"extremely","very"},{"actually","very"},{"really","very"},{"super","very"}}
  ;
-solution2.areSentencesSimilar(w1,w2,pars);
+        solution734.areSentencesSimilar(w1,w2,pars);
     }
     public boolean areSentencesSimilar(String[] words1, String[] words2, String[][] pairs) {
         Map<String,Set<String>> map = new HashMap<>();

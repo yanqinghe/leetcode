@@ -1,20 +1,8 @@
-package LeetCode24_Swap_Nodes_in_Pairs;
 
 /**
  * Created by hehe on 2017/7/17.
  */
 public class Solution24 {
-    public static void main(String[] args) {
-        Solution24 solution = new Solution24();
-        int[] arr = {1, 2, 3};
-        ListNode listNode = new ListNode(0);
-        ListNode head = listNode;
-        for (int a : arr) {
-            listNode.next = new ListNode(a);
-            listNode = listNode.next;
-        }
-        System.out.print(solution.swapPairs(head.next));
-    }
 
     public ListNode swapPairs(ListNode head) {
         int i = 0;
@@ -35,5 +23,13 @@ public class Solution24 {
             i++;
         }
         return head.next;
+    }
+    class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode(int x) {
+            val = x;
+        }
     }
 }

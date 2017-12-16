@@ -1,4 +1,3 @@
-package LeetCode73_Set_Matrix_Zeroes;
 
 public class Solution73 {
     public static void main(String[] args) {

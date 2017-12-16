@@ -1,4 +1,3 @@
-package LeetCode127_Word_Ladder;
 
 import java.util.*;
 

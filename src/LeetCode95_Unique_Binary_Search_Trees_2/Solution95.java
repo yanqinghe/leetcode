@@ -1,7 +1,3 @@
-package LeetCode95_Unique_Binary_Search_Trees_2;
-
-import LeetCode2_Add_2_Numbers.ListNode;
-
 import java.util.ArrayList;
 import java.util.List;
 

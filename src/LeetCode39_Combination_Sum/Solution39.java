@@ -1,4 +1,3 @@
-package LeetCode39_Combination_Sum;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,3 @@
-package LeetCode65_Valid_Number;
 
 import java.util.LinkedList;
 import java.util.List;

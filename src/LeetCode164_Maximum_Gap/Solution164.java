@@ -1,4 +1,3 @@
-package LeetCode164_Maximum_Gap;
 
 import java.util.*;
 

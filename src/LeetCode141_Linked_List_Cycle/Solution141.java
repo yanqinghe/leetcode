@@ -1,6 +1,3 @@
-package LeetCode141_Linked_List_Cycle;
-
-import java.util.List;
 
 public class Solution141 {
     /**

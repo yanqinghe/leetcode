@@ -1,10 +1,9 @@
-package Weekly_Contest_60;
 
-public class Solution4 {
+public class Solution733 {
     public static void main(String[] args) {
         int[][] a= {{0,0,0},{0,0,0}};
-        Solution4 solution4 = new Solution4();
-        solution4.floodFill(a,0,0,2);
+        Solution733 solution733 = new Solution733();
+        solution733.floodFill(a,0,0,2);
     }
     public int[][] floodFill(int[][] image, int sr, int sc, int newColor) {
         boolean [][]dp = new boolean[image.length][image[0].length];

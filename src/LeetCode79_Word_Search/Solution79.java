@@ -1,4 +1,3 @@
-package LeetCode79_Word_Search;
 
 public class Solution79 {
     public boolean exist(char[][] board, String word) {

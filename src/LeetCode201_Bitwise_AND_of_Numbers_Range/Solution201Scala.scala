@@ -1,4 +1,4 @@
-object Solution201 {
+object Solution201Scala {
   def rangeBitwiseAnd(m: Int, n: Int): Int = {
 
     var res = 0;

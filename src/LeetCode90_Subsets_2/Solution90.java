@@ -1,4 +1,3 @@
-package LeetCode90_Subsets_2;
 
 import java.util.ArrayList;
 import java.util.Arrays;

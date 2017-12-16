@@ -1,4 +1,3 @@
-package LeetCode71_Simplify_Path;
 
 import java.util.LinkedList;
 import java.util.List;

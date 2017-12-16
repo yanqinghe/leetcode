@@ -1,9 +1,8 @@
-package Weekly_Contest_59;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution1 {
+public class Solution728 {
     public List<Integer> selfDividingNumbers(int left, int right) {
         List<Integer> res = new ArrayList<>();
         for (int i = left; i <=right; i++) {

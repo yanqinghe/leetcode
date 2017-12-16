@@ -1,4 +1,3 @@
-package Weekly_Contest_59;
 
 import java.util.ArrayList;
 import java.util.List;

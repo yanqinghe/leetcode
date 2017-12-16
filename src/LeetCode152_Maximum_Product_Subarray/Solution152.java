@@ -1,4 +1,3 @@
-package LeetCode152_Maximum_Product_Subarray;
 
 import java.util.ArrayList;
 import java.util.Arrays;

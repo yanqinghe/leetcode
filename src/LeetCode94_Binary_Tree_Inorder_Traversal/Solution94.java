@@ -1,6 +1,3 @@
-package LeetCode94_Binary_Tree_Inorder_Traversal;
-
-import LeetCode2_Add_2_Numbers.ListNode;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,13 +1,11 @@
-package Weekly_Contest_60;
 
-import java.util.ArrayList;
 import java.util.Stack;
 
-public class Solution3 {
+public class Solution735 {
     public static void main(String[] args) {
-        Solution3 solution3 = new Solution3();
+        Solution735 solution735 = new Solution735();
         int[] a = {10,2,-5};
-        solution3.asteroidCollision(a);
+        solution735.asteroidCollision(a);
     }
     public int[] asteroidCollision(int[] asteroids) {
         if(asteroids==null||asteroids.length<1) return asteroids;

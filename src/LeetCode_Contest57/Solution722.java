@@ -1,13 +1,12 @@
-package LeetCode_Contest57;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution3 {
+public class Solution722 {
     public static void main(String[] args) {
-            Solution3 solution3 = new Solution3();
+            Solution722 solution722 = new Solution722();
             String[] s  ={"a//*b/*/c","blank","d/*/e/*/f"};
-            solution3.removeComments(s);
+            solution722.removeComments(s);
     }
     public List<String> removeComments(String[] source) {
         boolean inB = false;

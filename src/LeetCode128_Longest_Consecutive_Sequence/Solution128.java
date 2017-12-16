@@ -1,4 +1,3 @@
-package LeetCode128_Longest_Consecutive_Sequence;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,4 +1,3 @@
-package LeetCode32_Longest_Valid_Parentheses;
 
 import java.util.Stack;
 

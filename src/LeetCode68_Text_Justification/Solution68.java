@@ -1,4 +1,3 @@
-package LeetCode68_Text_Justification;
 
 import java.util.LinkedList;
 import java.util.List;

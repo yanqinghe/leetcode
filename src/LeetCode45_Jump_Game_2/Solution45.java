@@ -1,4 +1,3 @@
-package LeetCode45_Jump_Game_2;
 
 public class Solution45 {
     public int jump(int[] nums) {

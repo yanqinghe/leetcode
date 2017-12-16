@@ -1,4 +1,3 @@
-package LeetCode118_Pascals_Triangle;
 
 import java.util.ArrayList;
 import java.util.List;

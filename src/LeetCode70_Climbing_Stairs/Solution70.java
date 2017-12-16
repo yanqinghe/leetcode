@@ -1,4 +1,3 @@
-package LeetCode70_Climbing_Stairs;
 
 public class Solution70 {
     public int climbStairs(int n) {

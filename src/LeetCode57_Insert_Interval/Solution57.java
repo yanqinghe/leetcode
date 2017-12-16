@@ -1,4 +1,3 @@
-package LeetCode57_Insert_Interval;
 
 import java.util.LinkedList;
 import java.util.List;

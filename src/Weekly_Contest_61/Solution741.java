@@ -1,10 +1,9 @@
-package Weekly_Contest_61;
 
-public class Solution4 {
+public class Solution741 {
     public static void main(String[] args) {
-        Solution4 solution4 = new Solution4();
+        Solution741 solution741 = new Solution741();
         int[][] a = {{1, 1, 1, 1, 0, 0, 0}, {0, 0, 0, 1, 0, 0, 0}, {0, 0, 0, 1, 0, 0, 1}, {1, 0, 0, 1, 0, 0, 0}, {0, 0, 0, 1, 0, 0, 0}, {0, 0, 0, 1, 0, 0, 0}, {0, 0, 0, 1, 1, 1, 1}};
-        solution4.cherryPickup(a);
+        solution741.cherryPickup(a);
 
     }
 

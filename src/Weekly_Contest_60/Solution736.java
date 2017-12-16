@@ -1,13 +1,11 @@
-package Weekly_Contest_60;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Stack;
 
-public class Solution1 {
+public class Solution736 {
     public static void main(String[] args) {
-        Solution1 solution1 = new Solution1();
-        solution1.evaluate("(let x 2 (add (let x 3 (let x 4 x)) x))");
+        Solution736 solution736 = new Solution736();
+        solution736.evaluate("(let x 2 (add (let x 3 (let x 4 x)) x))");
     }
 
     int pos;

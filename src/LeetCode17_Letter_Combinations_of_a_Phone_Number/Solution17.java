@@ -1,4 +1,3 @@
-package LeetCode17_Letter_Combinations_of_a_Phone_Number;
 
 import java.util.ArrayList;
 import java.util.List;

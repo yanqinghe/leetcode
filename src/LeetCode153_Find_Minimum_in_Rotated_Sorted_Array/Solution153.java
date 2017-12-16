@@ -1,4 +1,3 @@
-package LeetCode153_Find_Minimum_in_Rotated_Sorted_Array;
 
 public class Solution153 {
     public int findMin(int[] nums) {

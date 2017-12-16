@@ -1,6 +1,5 @@
-package LeetCode_Contest56;
 
-public class Solution1 {
+class Solution717 {
     public boolean isOneBitCharacter(int[] bits) {
         if (bits == null || bits.length == 0) {
             return false;

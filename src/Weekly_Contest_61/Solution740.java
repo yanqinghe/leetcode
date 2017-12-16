@@ -1,12 +1,11 @@
-package Weekly_Contest_61;
 
 import java.util.*;
 
-public class Solution3 {
+public class Solution740 {
     public static void main(String[] args) {
-        Solution3 solution3 = new Solution3();
+        Solution740 solution740 = new Solution740();
         int [] a = {3,4,2};
-        solution3.deleteAndEarn(a);
+        solution740.deleteAndEarn(a);
     }
     public int deleteAndEarn(int[] nums) {
         if(nums==null||nums.length<1) return 0;

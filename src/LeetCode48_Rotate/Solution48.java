@@ -1,4 +1,3 @@
-package LeetCode48_Rotate;
 
 public class Solution48 {
     public static void main(String[] args) {

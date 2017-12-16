@@ -1,4 +1,3 @@
-package LeetCode108_Convert_Sorted_Array_to_Binary_Search_Tree;
 
 public class Solution108 {
     public TreeNode sortedArrayToBST(int[] nums) {

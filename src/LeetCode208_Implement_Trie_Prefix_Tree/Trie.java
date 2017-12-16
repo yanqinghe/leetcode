@@ -1,4 +1,3 @@
-package LeetCode208_Implement_Trie_Prefix_Tree;
 
 import java.util.ArrayList;
 import java.util.HashMap;

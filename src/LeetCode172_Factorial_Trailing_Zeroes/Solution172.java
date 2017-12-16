@@ -1,4 +1,3 @@
-package LeetCode172_Factorial_Trailing_Zeroes;
 
 public class Solution172 {
     public int trailingZeroes(int n) {

@@ -1,4 +1,3 @@
-package LeetCode207_Course_Schedule;
 
 import java.util.*;
 

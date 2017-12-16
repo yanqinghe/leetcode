@@ -1,6 +1,3 @@
-package LeetCode99_Recover_Binary_Search_Tree;
-
-import LeetCode98_Validate_Binary_Search_Tree.Solution98;
 
 public class Solution99 {
     /**

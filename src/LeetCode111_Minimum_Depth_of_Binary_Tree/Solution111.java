@@ -1,4 +1,3 @@
-package LeetCode111_Minimum_Depth_of_Binary_Tree;
 
 public class Solution111 {
     /**

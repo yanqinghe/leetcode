@@ -1,4 +1,3 @@
-package LeetCode22_Generate_Parentheses;
 
 import java.util.ArrayList;
 import java.util.List;

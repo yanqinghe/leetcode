@@ -1,4 +1,3 @@
-package LeetCode4_Median_of_Two_Sorted_Arrays;
 
 /**
  * Created by yanqinghe on 2017/7/2.

@@ -1,4 +1,3 @@
-package LeetCode27_Remove_Element;
 
 class Solution27 {
     public static void main(String[] args) {

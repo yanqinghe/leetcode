@@ -1,4 +1,3 @@
-package LeetCode143_Reorder_List;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;

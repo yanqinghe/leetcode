@@ -1,6 +1,3 @@
-package LeetCode74_Search_a_2D_Matrix;
-
-import LeetCode7_Reverse_Integer.Solution7;
 
 public class Solution74 {
     public static void main(String[] args) {

@@ -1,4 +1,3 @@
-package LeetCode49_Group_Anagrams;
 
 
 import java.util.*;

@@ -1,4 +1,3 @@
-package LeetCode81_Search_in_Rotated_Sorted_Array_2;
 
 class Solution81 {
     public boolean search(int[] nums, int target) {

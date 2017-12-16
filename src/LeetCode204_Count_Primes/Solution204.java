@@ -1,4 +1,3 @@
-package LeetCode204_Count_Primes;
 
 /**
  * Created with Hehel

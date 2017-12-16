@@ -1,5 +1,3 @@
-package LeetCode96_Unique_Binary_Search_Trees;
-
 public class Solution96 {
     public int numTrees(int n) {
         if (n <= 0) {

@@ -1,4 +1,3 @@
-package LeetCode7_Reverse_Integer;
 
 /**
  * Created by yanqinghe on 2017/7/3.
