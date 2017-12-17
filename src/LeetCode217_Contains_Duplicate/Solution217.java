@@ -1,4 +1,3 @@
-package LeetCode217_Contains_Duplicate;
 
 import java.util.Arrays;
 import java.util.HashSet;

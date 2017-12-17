@@ -1,4 +1,3 @@
-package LeetCode216_Combination_Sum_III;
 
 import java.util.ArrayList;
 import java.util.List;
