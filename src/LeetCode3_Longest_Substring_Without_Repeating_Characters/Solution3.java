@@ -4,7 +4,7 @@
  */
 public class Solution3 {
     public static void main(String args[]) {
-        Solution722 solution = new Solution722();
+        Solution3 solution = new Solution3();
         System.out.println(solution.lengthOfLongestSubstring("bbbbb"));
     }
 
