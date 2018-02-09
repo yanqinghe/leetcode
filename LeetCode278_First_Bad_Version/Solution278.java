@@ -16,4 +16,9 @@ public class Solution278 {
     boolean isBadVersion(int version){
         return true;
     }
+
+
+    public static void main(String[] args) {
+        System.out.println("调试");    
+    }
 }
