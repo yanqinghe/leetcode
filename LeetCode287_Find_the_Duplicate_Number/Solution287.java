@@ -10,21 +10,6 @@ public class Solution287 {
                 return nums[i];
         }
         return  nums[0];
-//            int i =1;
-//            while (i<nums.length){
-//                int n = nums[i];
-//                if(i==n){
-//                    i++;
-//                    continue;
-//                }
-//                if(nums[n]>0){
-//                    nums[i]=nums[n];
-//                    nums[n]=n;
-//                }else {
-//                    return n;
-//                }
-//            }
-//            return nums[nums.length-1];
     }
 
     public int findDuplicate1(int[] nums) {
