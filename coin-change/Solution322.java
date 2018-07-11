@@ -7,22 +7,30 @@ public class Solution322 {
     public static void main(String[] args) {
         Solution322 solution322 = new Solution322();
 
-        System.out.println( solution322.coinChange(new int[]{2},3));
+        System.out.println( solution322.coinChange(new int[]{2147483647},2));
     }
 
     public int coinChange(int[] coins, int amount) {
-        if(amount==0)  return 0;
+        //如果硬币集合为空或者长度为0，那么直接返回
         if(coins==null||coins.length==0) return -1;
-        Arrays.sort(coins);
-        int len = amount+coins[coins.length-1]+1;
+        //动态规划数组的长度
+        int len = amount+1;
         int[] dp = new int[len];
+        //初始化
+        Arrays.fill(dp,-1);
         dp[0]=0;
-        for (int i = 1; i < len; i++) {
-            int min = Integer.MAX_VALUE;
+        for (int coin : coins) {
+            if(coin<len) dp[coin]=1;
+        }
+        for (int target = 1; target < len; target++) {
             for (int coin : coins) {
+                int j = target-coin;
+                if(j>=0&&dp[j]!=-1){
+                    dp[target]=dp[target]==-1?dp[j]+1:Math.min(dp[target],dp[j]+1);
+                }
             }
         }
-        return 0;
+        return dp[amount];
     }
         /**
          * 该算法时间超时
